@@ -6,44 +6,60 @@ class QuizzBrain {
 
   List<Pergunta> _perguntas = [
     Pergunta(
-        s: 'O uso de máscara não é obrigatório em locais fechados.', b: false),
+        perguntaText: 'O uso de máscara não é obrigatório em locais fechados.',
+        resposta: false),
     Pergunta(
-        s: 'Deve-se ter o cuidado de esfregar alcóol em gel nas mãos.',
-        b: true),
-    Pergunta(s: 'O dinheiro é veículo de transmissão do coronavírus.', b: true),
+        perguntaText:
+            'Deve-se ter o cuidado de esfregar alcóol em gel nas mãos.',
+        resposta: true),
     Pergunta(
-        s: 'Antes do aparecimento dos sintomas, a pessoa pode transmitir a infeção.',
-        b: true),
+        perguntaText: 'O dinheiro é veículo de transmissão do coronavírus.',
+        resposta: true),
     Pergunta(
-        s: 'Os secadores de mãos são eficazes no combate ao coronavírus.',
-        b: false),
+        perguntaText:
+            'Antes do aparecimento dos sintomas, a pessoa pode transmitir a infeção.',
+        resposta: true),
     Pergunta(
-        s: 'O vírus não pode ser transmitido através de alimentos.', b: false),
+        perguntaText:
+            'Os secadores de mãos são eficazes no combate ao coronavírus.',
+        resposta: false),
     Pergunta(
-        s: 'Uma lâmpada ultravioleta pode ser capaz de matar o vírus.',
-        b: false),
+        perguntaText: 'O vírus não pode ser transmitido através de alimentos.',
+        resposta: false),
     Pergunta(
-        s: 'Os termómetros de medição corporal são eficazes na identificação da febre.',
-        b: true),
+        perguntaText:
+            'Uma lâmpada ultravioleta pode ser capaz de matar o vírus.',
+        resposta: false),
     Pergunta(
-        s: 'A pulverização de álcool ou cloro pelo corpo, pode matar o vírus.',
-        b: false),
+        perguntaText:
+            'Os termómetros de medição corporal são eficazes na identificação da febre.',
+        resposta: true),
     Pergunta(
-        s: 'É seguro receber uma carta ou uma encomenda vinda da China.',
-        b: true),
+        perguntaText:
+            'A pulverização de álcool ou cloro pelo corpo, pode matar o vírus.',
+        resposta: false),
     Pergunta(
-        s: 'Os animais de estimação em casa podem espalhar o coronavírus.',
-        b: false),
+        perguntaText:
+            'É seguro receber uma carta ou uma encomenda vinda da China.',
+        resposta: true),
     Pergunta(
-        s: 'As vacinas contra a pneumonia protegem contra o virus.', b: false),
+        perguntaText:
+            'Os animais de estimação em casa podem espalhar o coronavírus.',
+        resposta: false),
     Pergunta(
-        s: 'A limpeza regular do nariz com soluções salinas não previne a infecção',
-        b: true),
+        perguntaText: 'As vacinas contra a pneumonia protegem contra o virus.',
+        resposta: false),
     Pergunta(
-        s: 'Comer alho pode ajudar a prevenir uma eventual infecção', b: false),
+        perguntaText:
+            'A limpeza regular do nariz com soluções salinas não previne a infecção',
+        resposta: true),
     Pergunta(
-        s: 'Os antibióticos não são eficazes na prevenção e tratamento do coronavírus',
-        b: true),
+        perguntaText: 'Comer alho pode ajudar a prevenir uma eventual infecção',
+        resposta: false),
+    Pergunta(
+        perguntaText:
+            'Os antibióticos não são eficazes na prevenção e tratamento do coronavírus',
+        resposta: true),
   ];
 
   void reset() {
